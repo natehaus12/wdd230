@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&display=swap');
+
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(110, 189, 216);
+    padding-top: 20px
 }
 
 header{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-    background-color: rgb(8, 8, 102);
+    background-image: linear-gradient(rgb(8, 8, 102), blue);
     color: white;
     border: 2px black solid;
 }
@@ -24,22 +28,26 @@ header div:nth-child(2){
 }
 
 main h2{
+    font-family: 'Rowdies', cursive;
     text-align: center;
 }
 
 ul {
+    font-family: 'Rowdies', cursive;
     list-style-position: inside;
     text-align: center;
 }
 
 #content{
     margin: 0 auto;
-    width: 800px
+    padding-left: 250px;
+    padding-right: 250px
 }
 
 footer{
+    font-family: 'Roboto', sans-serif;
     align-items: center;
-    background-color: rgb(8, 8, 102);
+    background-image: linear-gradient(blue, rgb(8, 8, 102));
     color: white;
     border: 2px black solid;
     text-align: center;

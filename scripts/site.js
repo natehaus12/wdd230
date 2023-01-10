@@ -1,4 +1,5 @@
-// sete year for the footer
+// set year for the footer
+
 const date = new Date()
 document.querySelector('#currentyear').textContent = date.getFullYear();
 
