@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 1, 86), rgb(26, 26, 150));
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main {
+	margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 0.8rem;
+}
