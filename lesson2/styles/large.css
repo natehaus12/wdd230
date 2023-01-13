@@ -48,10 +48,9 @@ a, p {
         margin: 7px;
     }
 
-    #principletitle{
+    #principletitle1,#principletitle2, #principletitle3{
         border-radius: 1rem;
         background-color: #3d5a80;
-        fill: #3d5a80;;
         color: white;
         align-items: center;
 
