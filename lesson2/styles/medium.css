@@ -1,20 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
-
-header, footer{
-    font-family: 'Montserrat', sans-serif;
-}
-
-h3, h4{
-    font-family: 'Poppins', sans-serif;
-}
-
-a, p {
-    font-family: 'Inter', sans-serif;
-}
-
-@media screen and (min-width: 1150px){
+@media screen and (min-width: 700px) and (max-width: 1150px){
 
     header, footer{
         text-align: center;
@@ -26,10 +10,11 @@ a, p {
 
     main{
         display: grid;
-        grid-template-areas: "s1 s2 s3" 
+        grid-template-areas: "s1 s2" 
+                             "s3 s3";
     }
     #section1{
-        grid-area: s1;  
+        grid-area: s1;            
     }
     #section2{
         grid-area: s2;            
@@ -45,24 +30,25 @@ a, p {
         border-radius: 1rem;
         align-items: center;
         text-align: center;
-        margin: 7px;
+        margin: 7px
     }
 
     #principletitle{
         border-radius: 1rem;
         background-color: #3d5a80;
-        fill: #3d5a80;;
+        width: 100%;
         color: white;
         align-items: center;
 
     }
+
     img{
         width: 350px;
         height: 700px
     }
     
     h3{
-    padding-left: 2px; 
+    padding-left: 2px;
     padding-top: 4px;  
     padding-bottom: 4px;  
     display: block;

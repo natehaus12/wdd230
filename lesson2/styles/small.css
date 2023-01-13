@@ -1,0 +1,52 @@
+@media screen and (max-width: 700px){
+    header, footer{
+        text-align: center;
+        background-color: #2f3a4d;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    main {
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    section{
+        background-color: rgb(194, 188, 188);
+        margin: 7px;
+        border: 2px black solid;
+        border-radius: 1rem;
+        align-items: center;
+        text-align: center;
+
+    }
+    img{
+        width: 350px;
+        height: 700px
+    }
+
+    #principletitle{
+        border-radius: 1rem;
+        background-color: #3d5a80;
+        width: 100%;
+        color: white;
+        align-items: center;
+
+    }
+
+    h3{
+    padding-left: 2px;
+    padding-top: 4px;  
+    padding-bottom: 4px;  
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+}
