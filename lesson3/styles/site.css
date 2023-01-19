@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+main{
+    text-align: center;
+    align-items: center;
+    background-color: #2E8BC0;
+    font-family: 'Roboto', sans-serif;
+    color: #0C2D48;
+}
+
+#personas{
+    text-align: left;
+}
+
+img{
+    border: 1px solid black;
+}
+
+main a{
+    color: #B1D4E0
+}
+
+header, footer, main{
+    max-width: 640px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1rem
+}
+
+header, footer{
+    font-family: 'Raleway', sans-serif;
+    background-color: #B1D4E0;
+    text-align: center;
+    color: #0C2D48
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #0C2D48;
+    text-align: center;
+    /* width: 672px; */
+    margin:0  auto;
+    padding: 1 rem;
+    border: 1px solid black; 
+   
+   
+}
+nav ul{
+    justify-content: center;
+     display:flex;
+     flex-direction: column;
+     list-style: none;
+     padding-inline-start: 0px;
+     
+
+}
+
+nav ul li{
+    text-align: center;
+    min-width: 210px;
+    border: 1px solid black;
+    height: 100%;
+    
+
+
+}
+main li{
+    list-style-position: inside;
+    text-align: left;
+}
+
+.active{
+    background-color: #2E8BC0;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: #2E8BC0;
+    color: black;
+
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem;
+    color: white;
+}
+#color{
+    max-width: 500px;
+
+}
+
+@media screen and (min-width:640px) {
+    nav ul{
+        flex-direction: row;
+    }
+
+    nav{
+        Max-width:640px;
+        padding: 1rem;        
+        margin: 0 auto;
+    }
+    #color{
+        min-width: 640px;;
+    }
+
+}
