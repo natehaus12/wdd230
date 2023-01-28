@@ -3,6 +3,10 @@
     html{
         background-color: #0C2D48;
     }
+    #main-logo{
+        padding: 0.5rem;
+        padding-left: 1rem;
+    }
 
     #main-header{
         font-family: 'Raleway', sans-serif;
