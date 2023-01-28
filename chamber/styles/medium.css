@@ -167,7 +167,7 @@
     }
 
     #hero{
-        position: none;
+        position: relative;
         background-color: #B1D4E0;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
