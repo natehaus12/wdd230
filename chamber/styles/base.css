@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+
+header, footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 @media screen and (max-width:640px) {
 
     html{
@@ -144,7 +160,7 @@
         text-align: center;
         background-color: #0C2D48;
         color:  #B1D4E0;
-        margin: 1rem;
+        margin: 1.5rem;
     }
 
 

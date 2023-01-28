@@ -115,13 +115,16 @@
     
     #navbar{
         display: none;
+        z-index: 2;
+        position: relative;
     }
     
     nav.menu-active{
         width:100%
     }
     #navbar.menu-active{
-        width: 100%;
+        margin-left: 8rem;
+        width: 100%; 
         background-color: #B1D4E0;
         display: block;
         justify-content: center;
@@ -164,11 +167,13 @@
     }
 
     #hero{
+        position: none;
         background-color: #B1D4E0;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
         order: 1;
+        z-index: 1;
     }
     #event-weather{
         order: 6;
