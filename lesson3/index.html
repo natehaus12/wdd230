@@ -8,6 +8,7 @@
     <title>Chamber of Commerce Site Plan Home Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/site.css">
+    <script src="./scripts/lesson3.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,7 +17,10 @@
     </header>
 
     <nav>
-        <ul>
+        <button id="hamburger-menu">
+            <span id="menu-close">&equiv;</span>
+            <span id="menu-open">X</span></button>
+        <ul id="navbar">
             <li class="active"><a class="active" href="index.html">Home Page</a></li>
             <li><a href="target-audience.html">Target Audience</a></li>
             <li><a href="design.html">Design</a></li>
