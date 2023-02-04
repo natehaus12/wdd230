@@ -360,7 +360,6 @@
     main.home-main{
         margin: 3%;
         align-items: center;
-        justify-content: baseline;
         padding-bottom: 0.5rem;
         display: grid;
         grid-template-areas: "one two two three"
