@@ -80,7 +80,8 @@
     }
 
     nav ul li{
-        padding: 10px;
+        display: block;
+        /* padding: 10px; */
         text-align: center;
         border: 1px solid white;
         height: 100%;
@@ -109,8 +110,25 @@
         
     }
 
+    nav ul li a{
+        display: block;
+        padding: 0.5rem;
+    }
+
+
+    nav ul li a:hover{
+        text-decoration: none;
+        display: block;
+        color:#B1D4E0;
+        background-color:#0C2D48;
+    
+    }
+    
+
     nav a{
         color: #0C2D48;
+        display: block;
+        text-decoration: none;
     }
     
     #navbar{
