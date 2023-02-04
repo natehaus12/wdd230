@@ -193,12 +193,12 @@
 
 
     .home-main{
+        text-align: center;
+        align-items: center;
         background-color: #0C2D48;
         justify-items: center;
-        width: 75%;
-        height: 75%;
-        margin-left: 4%;
-        margin-right: 5%;
+        width: 60%;
+        height: 60%;
     }
 
     .home-main p{
@@ -291,6 +291,7 @@
         background-color: #B1D4E0;
         margin:  0.5rem;
         grid-area: five;
+        height: 85%;
     }
 
     #news-release h2{
@@ -300,6 +301,9 @@
 
     #spotlights{
         min-width: 250px;
+        height: 90%;
+        justify-content: center;
+        justify-self: center;
         text-align: center;
         background-color: #B1D4E0;
         display: flex;
@@ -338,7 +342,8 @@
         margin:  0.5rem;
         text-align: center;
         padding: 0.5rem;
-    }
+        height: 90%
+    };
 
     #join button{
         width: 85%;
@@ -353,6 +358,9 @@
 
 
     main.home-main{
+        margin: 3%;
+        align-items: center;
+        justify-content: baseline;
         padding-bottom: 0.5rem;
         display: grid;
         grid-template-areas: "one two two three"
