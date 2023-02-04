@@ -1,4 +1,38 @@
-@media screen and (min-width:640px) and (max-width:1000px) {
+@media screen and (min-width:640px) and (max-width:1300px) {
+
+    #welcome{
+        top: 2px;
+        position: absolute;
+        text-align: center;
+        color: #0C2D48;
+        text-decoration: solid;
+        font-size: larger;
+        font-weight: 900;
+
+    }
+
+    #hero-button{
+        position: absolute;
+        bottom: 2.5rem;
+        right: 2rem;
+    }
+    #hero-button button{
+        width: 15rem;
+        height: 3rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border:  1px solid #0C2D48;
+        border-radius: 10px;
+    }
+
+    #news-release h2{
+        color: blue;
+    }
+
+    #spotlights h2{
+        color: blue;
+        padding: 1rem;
+    }
 
     html{
         background-color: #0C2D48;
@@ -199,21 +233,48 @@
         grid-template-areas: "one one two";
     }
     #event{
+        text-align: center;
         background-color: #B1D4E0;
         margin:  0.5rem;
-        grid-area: one;;
+        grid-area: one;
+        padding: 1rem;
+    }
+
+    #event h2{
+        color: blue;
     }
     #weather{
+        text-align: center;
+        grid-area: two;
         background-color: #B1D4E0;
         margin:  0.5rem;
     }
+
+    #weather-info{
+        display: flex;
+        padding-left: 2rem;
+    }
+
+    #weather img{
+        padding: 1rem;
+        height: 50px;
+    }
     #news-release{
+        padding: 0.5rem;
+        text-align: center;
         background-color: #B1D4E0;
         margin:  0.5rem;
         order: 2;
     }
 
+    #spotlights img{
+        width: 150px;
+        height: 150px;
+    }
+
     #spotlights{
+        width: 98%;
+        text-align: center;
         background-color: #B1D4E0;
         display: grid;
         grid-template-areas: "one two";
@@ -222,11 +283,20 @@
         order: 3;
     }
     #spotlight-1{
+        padding: 1rem;
+        width: 100%;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         
     }
+    #spotlight-1 h3{
+        padding-right: 1.85em;
+    }
+    #spotlight-1 hr{
+        width: 85%;
+    }
     #spotlight-2{
+        padding: 1rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
     }
@@ -234,7 +304,20 @@
         background-color: #B1D4E0;
         display: none;
     }
+
+    #join button{
+        width: 85%;
+        height: 40px;
+        border-radius: 9px;
+        background-color: blue;
+        color: white;
+        border: 4px solid black;
+        
+
+    }
     #join{
+        padding: 0.5rem;
+        text-align: center;
         background-color: #B1D4E0;
         order: 4;
         margin:  0.5rem;

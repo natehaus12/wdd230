@@ -1,15 +1,10 @@
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1300px) {
 
     html{
         background-color: #0C2D48;
     }
 
-    #hero img{
 
-        align-items: center;
-        margin: 0 auto;
-
-    }
 
     #main-header{
         font-family: 'Raleway', sans-serif;
@@ -199,6 +194,11 @@
 
     .home-main{
         background-color: #0C2D48;
+        justify-items: center;
+        width: 75%;
+        height: 75%;
+        margin-left: 4%;
+        margin-right: 5%;
     }
 
     .home-main p{
@@ -207,12 +207,46 @@
     }
 
     #hero{
-        align-self: center;
+        height: 99%;
+        width: 98%;
+        align-self: top;
         align-items: center;
-        justify-content: center;
         background-color: #B1D4E0;
         margin: 0.5rem;
         grid-area: two;
+    }
+
+    #hero img{
+        min-width: 750px;
+        align-self: center;
+        align-items: center;
+
+    }
+
+    
+    #welcome{
+        top: 15rem;
+        position: absolute;
+        text-align: center;
+        color: #0C2D48;
+        text-decoration: solid;
+        font-size: larger;
+        font-weight: 900;
+
+    }
+
+    #hero-button{
+        position: absolute;
+        top: 60rem;
+        right: 22rem;
+    }
+    #hero-button button{
+        width: 15rem;
+        height: 3rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border:  1px solid #0C2D48;
+        border-radius: 10px;
     }
     #event-weather{
         height: 100%;
@@ -223,23 +257,48 @@
     }
     #event{
         height: 100%;
+        text-align: center;
         background-color: #B1D4E0;
         margin:  0.5rem;
         grid-area: one;
     }
+
+    #event h2{
+        color: blue;
+    }
     #weather{
+        padding: 1rem;
+        text-align: center;
         width: 100;
         height: 100%;
         background-color: #B1D4E0;
         margin:  0.5rem;
     }
+
+    #weather img{
+        height: 150px;
+    }
+
+    #weather-info{
+        display: flex;
+        padding-right: 1rem;
+    }
     #news-release{
+        text-align: center;
+        padding: 1rem;
         background-color: #B1D4E0;
         margin:  0.5rem;
         grid-area: five;
     }
 
+    #news-release h2{
+        color: blue;
+    }
+
+
     #spotlights{
+        min-width: 250px;
+        text-align: center;
         background-color: #B1D4E0;
         display: flex;
         flex-direction: column;
@@ -247,13 +306,20 @@
         border: 1px solid #0C2D48;
         grid-area: three;
     }
+
+    #spotlights img{
+        width: 100px;
+        height: 100px;
+    }
     #spotlight-1{
+        padding: 1rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         height: 100%;
         
     }
     #spotlight-2{
+        padding: 1rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         height: 100%;
@@ -268,7 +334,22 @@
         background-color: #B1D4E0;
         grid-area: four;
         margin:  0.5rem;
+        text-align: center;
+        padding: 0.5rem;
     }
+
+    #join button{
+        width: 85%;
+        height: 40px;
+        border-radius: 9px;
+        background-color: blue;
+        color: white;
+        border: 4px solid black;
+        
+
+    }
+
+
     main.home-main{
         padding-bottom: 0.5rem;
         display: grid;
