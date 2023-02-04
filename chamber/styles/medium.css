@@ -1,4 +1,4 @@
-@media screen and (min-width:640px) and (max-width:1300px) {
+@media screen and (min-width:640px) and (max-width:1200px) {
 
     #welcome{
         top: 2px;
@@ -15,6 +15,9 @@
         position: absolute;
         bottom: 2.5rem;
         right: 2rem;
+    }
+    #weather h2{
+        color: blue;
     }
     #hero-button button{
         width: 15rem;
