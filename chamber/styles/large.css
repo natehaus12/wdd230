@@ -1,4 +1,4 @@
-@media screen and (min-width:1100px) {
+@media screen and (min-width:900px) {
 
     html{
         background-color: #0C2D48;
@@ -197,8 +197,8 @@
         align-items: center;
         background-color: #0C2D48;
         justify-items: center;
-        width: 60%;
-        height: 60%;
+        min-width: 900px;
+        margin:1rem;
     }
 
     .home-main p{
@@ -207,24 +207,26 @@
     }
 
     #hero{
-        height: 99%;
-        width: 98%;
+        height: 95%;
         align-items: center;
         background-color: #B1D4E0;
-        margin: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
         grid-area: two;
+        max-height: 510px;
+        max-width: 680px;
     }
 
     #hero img{
-        min-width: 750px;
-        align-self: center;
-        align-items: center;
+        width: 100%;
+        height: 100%;
 
     }
 
     
     #welcome{
-        top: 15rem;
+        top: 20rem;
         position: absolute;
         text-align: center;
         color: #0C2D48;
@@ -236,7 +238,7 @@
 
     #hero-button{
         position: absolute;
-        top: 60rem;
+        top: 40rem;
         right: 22rem;
     }
     #hero-button button{
@@ -255,10 +257,16 @@
         grid-template-areas: "one one two";
     }
     #event{
+        padding: 0.5rem;
+        max-width: 250px;
+        max-height: 200px;
         height: 100%;
+        width: 100%;
         text-align: center;
         background-color: #B1D4E0;
-        margin:  0.5rem;
+        margin-left:  0.5rem;
+        margin-right:  0.5rem;
+        margin-bottom:  0.5rem;
         grid-area: one;
     }
 
@@ -270,7 +278,11 @@
         color: blue;
     }
     #weather{
-        padding: 1rem;
+        max-width: 250px;
+        max-height: 240px;
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
         text-align: center;
         height: 100%;
         background-color: #B1D4E0;
@@ -278,7 +290,15 @@
     }
 
     #weather img{
-        height: 150px;
+        height: 40px;
+    }
+
+    #weather h3{
+        font-size: medium;
+    }
+
+    #weather h4{
+        font-size: small;
     }
 
     #weather-info{
@@ -287,11 +307,15 @@
     }
     #news-release{
         text-align: center;
-        padding: 1rem;
+        padding: 0.5rem;
         background-color: #B1D4E0;
         margin:  0.5rem;
         grid-area: five;
-        height: 85%;
+        max-width: 670px;
+        min-width: 670px;
+        max-height: 200px;
+        height: 100%;
+        width: 100%;
     }
 
     #news-release h2{
@@ -300,8 +324,9 @@
 
 
     #spotlights{
-        min-width: 250px;
-        height: 90%;
+        max-height: 1050px;
+        max-width: 250px;
+        height: 100%;
         justify-content: center;
         justify-self: center;
         text-align: center;
@@ -314,40 +339,69 @@
     }
 
     #spotlights img{
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #spotlights h2{
+        font-size: medium;
+        color:blue
+    }
+    #spotlights h3{
+        font-size: small;
+    }
+    #spotlights h4{
+        font-size: smaller;
     }
     #spotlight-1{
-        padding: 1rem;
+        max-width: 250px;
+        max-height: 250px;
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         height: 100%;
         
     }
     #spotlight-2{
-        padding: 1rem;
+        max-width: 250px;
+        max-height: 250px;
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         height: 100%;
     }
     #spotlight-3{
+        max-width: 250px;
+        max-height: 250px;
+        height: 100%;
+        width: 100%;
+        padding:0.5rem;
         background-color: #B1D4E0;
         border: 1px solid #0C2D48;
         height: 100%;
     }
     
     #join{
+        max-width: 250px;
+        max-height: 200px;
+        height: 80%;
+        width: 100%;
         background-color: #B1D4E0;
         grid-area: four;
         margin:  0.5rem;
         text-align: center;
         padding: 0.5rem;
-        height: 90%
+        height: 100%
     }
 
     #join button{
+        
         width: 85%;
-        height: 40px;
+        max-height: 40px;
         border-radius: 9px;
         background-color: blue;
         color: white;
@@ -358,7 +412,7 @@
 
 
     main.home-main{
-        margin: 3%;
+        margin: 0.5rem;
         align-items: center;
         padding-bottom: 0.5rem;
         display: grid;
