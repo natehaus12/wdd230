@@ -156,7 +156,7 @@
     nav ul li a:hover{
         text-decoration: none;
         display: block;
-        color:#B1D4E0;
+        color:white;
         background-color:#0C2D48;
     
     }
@@ -222,13 +222,18 @@
     }
 
     #hero{
+        height: 90%;
         position: relative;
-        background-color: #B1D4E0;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
         order: 1;
         z-index: 1;
+    }
+
+    #hero img{
+        object-fit: fill;
+        height: 100%;
     }
     #event-weather{
         order: 6;
