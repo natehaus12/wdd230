@@ -255,12 +255,17 @@
 
     #weather-info{
         display: flex;
-        padding-left: 2rem;
+        padding: 1rem;
+        margin: 0.2rem auto;
     }
 
     #weather img{
-        padding: 1rem;
-        height: 50px;
+        padding: 0.5rem;
+        height: 45px;
+    }
+
+    #wind-info{
+        padding: 0.2rem;
     }
     #news-release{
         padding: 0.5rem;
