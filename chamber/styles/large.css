@@ -201,6 +201,7 @@
 
 
     #hero{
+        object-fit: cover;
         height: 100%;
         align-items: center;
         background-color: #B1D4E0;
@@ -209,6 +210,11 @@
         margin-bottom: 0.5rem;
         grid-area: two;
         width: 95%;
+    }
+
+    #large-pic{
+        object-fit: cover;
+        width: 800px;
     }
 
     #hero img{
@@ -231,9 +237,25 @@
 
     }
 
+    #small-message{
+        display: none;
+    }
+
+    #medium-message{
+        display: none;
+    }
+
+    #large-message{
+        top: -95%;
+        right: -10%;
+        position: relative;
+        color: black;
+        font-size: larger;
+    }
+
     #hero-button{
         position: relative;
-        top: -25%;
+        top: -35%;
         left: 45%;
     }
     #hero-button button{

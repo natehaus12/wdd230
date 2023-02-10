@@ -1,5 +1,23 @@
 @media screen and (min-width:640px) and (max-width:900px) {
 
+    
+    #small-message{
+        display: none;
+    }
+
+    #medium-message{
+        right: 30%;
+        top: 10%;
+        position: absolute;
+        color: black;
+        font-size: larger;
+    }
+
+    #large-message{
+        display: none;
+
+    }
+
     #welcome{
         top: 2px;
         position: absolute;

@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/home-page.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
         <div id="meet-greet"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
         <div id="main-header">
             <div id="main-logo">
-                <a href="index.html"><img src="./images/logo.png" alt="Lake Tahoe COC Logo" width="110" height="85"></a>
+                <a href="index.html"><img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="110" height="85"></a>
             </div>
             <div id="title">
                     <h1>Lake Tahoe</h1> <h2>Chamber of Commerce </h2>
@@ -50,7 +51,18 @@
     </header>
     <main class="home-main">
         <div id="hero">
-            <img src="./images/hero.jpg" alt="hero_img">
+
+            <!-- <img src="./images/hero.jpg" alt="hero_img"> -->
+            <picture>
+                <source media="(max-width: 640px)" srcset="./images/wdd230-org-600.jpg" />
+                <source media="(min-width:640px) and (max-width:900px)" srcset="./images/wdd230-org-700.jpg" />
+                <source id="large-pic" media="(min-width:900px)" srcset="./images/wdd230-org-800.jpg" />
+                <img src="./images/wdd230-org.jpg" alt="Week 6 Activity" />
+              </picture>
+
+              <div id="small-message"><p>SMALL</p></div>
+              <div id="medium-message"><p>MEDIUM</p></div>
+              <div id="large-message"><p>LARGE</p></div>
             <div id="welcome">
                 <p>Welcome to Lake Tahoe</p>
             </div>
@@ -71,12 +83,12 @@
                 <h2>Weather</h2>
                 <div id="weather-info">
                     <img src="./images/sun.jfif" alt="sun">
-                    <h3>84&deg;F <br> <br> Sunny</h3>
+                    <h3><span id="temperature"></span>&deg;F <br> <br> Sunny</h3>
                 </div>
                 <hr>
                 <div id="wind-info">
-                    <h4>Wind Speed: 2.5mph</h4>
-                    <h4>Wind Chill: N/A</h4>
+                    <h4>Wind Speed: <span id="windspeed"></span>mph</h4>
+                    <h4>Wind Chill: <span id="windchill"></span>&deg;F</h4>
                 </div>
 
             </div>
@@ -123,7 +135,7 @@
     <footer>
         <div id="containers">
             <div id="container-1">
-                <img src="./images/logo.png" alt="Lake Tahoe COC Logo" width="150" height="150">
+                <img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="150" height="150">
             </div>
             <div id="container-2">
                 <h3>Lake Tahoe Chamber of Commerce </h3>

@@ -14,15 +14,16 @@ nav{
 
 #meet-greet{
     display: none;
-}
-
-#meet-greet.active{
-    display:block;
     background-color: #B1D4E0;
     color: #0C2D48;
     font-weight: bold;
     padding: 0.5rem;
     text-align: center;
+}
+
+#meet-greet.active{
+    display:block;
+
 }
 
 #hero img{
@@ -34,6 +35,25 @@ nav{
 
 
 @media screen and (max-width:640px) {
+
+        
+    #small-message{
+        right: 30%;
+        top: 10%;
+        position: absolute;
+        color: black;
+        font-size: larger;
+    }
+
+    #medium-message{
+        display: none;
+
+    }
+
+    #large-message{
+        display: none;
+
+    }
 
 
     #welcome{
