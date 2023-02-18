@@ -371,5 +371,50 @@ nav{
         color: white;
     }
 
+    .discover-main{
+
+        background-color: #0C2D48;
+        color:#0C2D48;
+
+
+    }
+
+    .discover-main div{
+        margin: 1rem auto;
+        border: solid 1px #0C2D48 ;
+        background-color: #B1D4E0;
+    }
+
+    #demographics{
+        
+        text-align: center;
+        padding: 1rem;
+
+}
+
+    #the-lake{
+       
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #downtown{
+       
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #winter-sports{
+        
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #state-intersection{
+     
+        text-align: center;
+        padding: 1rem;
+    }
+
 
 }
