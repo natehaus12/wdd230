@@ -32,6 +32,19 @@ nav{
     z-index: 1;
 }
 
+.join-main{
+    color: #B1D4E0;
+    padding: 1rem;
+    margin-left: 10rem auto;
+    padding-left: 10%;
+}
+
+form label{
+    padding-top: 2rem;
+    padding-bottom: 2rem
+
+}
+
 
 
 @media screen and (max-width:640px) {

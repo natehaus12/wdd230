@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the Discover Page for WDD230 Lake Tahoe Chamber of Commerce">
-    <title>Lake Tahoe Chamber of Commerce Discover Page</title>
+    <meta name="description" content="This is the Join Page for WDD230 Lake Tahoe Chamber of Commerce">
+    <title>Lake Tahoe Chamber of Commerce Join Page</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
@@ -50,34 +50,46 @@
         </div>
 
     </header>
-    <main class="discover-main">
-        <div id="demographics">
-            <h3>Demographics</h3>
-            <img src="images/demographics.png" alt="view of lake" loading="lazy" width="250" height="250">
-            <h4>Here is some info on the dempgraphics of Lake Tahoe!!</h4>
-        </div>
-        <div id="downtown">
-            <h3>Downtown Lake Tahoe</h3>
-            <img src="images/downtown.jpg" alt="heavenly Village" loading="lazy" width="250" height="250">
-            <h4>Here is some info on the Downtown of Lake Tahoe!!</h4>
-        </div>
-        <div id="the-lake">
-            <h3>The Lake</h3>
-            <img src="images/the-lake.jfif" alt="view of lake" loading="lazy" width="250" height="250">
-            <h4>Here is some info on Lake Tahoe!!</h4>
-        </div>
-        <div id="winter-sports">
-            <h3>Winter Sports</h3>
-            <img src="images/winter-sports.jfif" alt="snowboarding" loading="lazy" width="250" height="250">
-            <h4>Here is some info on winter sports in tahoe!!</h4>
+    <main class="join-main">
+      <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
 
-        </div>
-        <div id="state-intersection">
-            <h3>Where States Meet</h3>
-            <img src="images/state-border.jpg" alt="state border" loading="lazy" width="250" height="250">
-            <h4>Here is some info on the state line!!</h4>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
 
-        </div>
+        <label for="businessP">Business Position Title:</label><br>
+        <input type="text" id="businessP" name="businessP"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="cell">Cell Phone:</label><br>
+        <input type="tel" id="cell" name="cell"><br>
+
+        
+        <label for="businessN">Business Name:</label><br>
+        <input type="text" id="businessN" name="businessN"><br>
+
+        <p>Please Select a Membership Level</p>
+
+        <input type="radio" id="np" name="membership" value="np">
+        <label for="np">NP Membership for Non Profits</label><br>
+        <input type="radio" id="bronze" name="membership" value="bronze">
+        <label for="css">Bronze Membership</label><br>
+        <input type="radio" id="silver" name="membership" value="silver">
+        <label for="javascript">Silver Membership</label><br>
+        <input type="radio" id="gold" name="membership" value="gold">
+        <label for="javascript">Gold Membership</label><br><br>
+
+        <label for="businessD">Business Description:</label><br>
+
+        <textarea id="businessD" name="businessD" rows="4" cols=="10">
+        Please provide a Description of your Business.
+        </textarea>
+
+
+      </form>
 
     </main>
     <footer>
