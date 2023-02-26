@@ -539,6 +539,42 @@
         padding: 1rem;
     }
 
+    .join-main{
+        display: grid;
+        grid-template-areas: "a b";
+        margin: 1 rem auto;
+    }
+
+    #left{
+        min-width: 60%;
+        min-height: 80%;
+        margin: auto;
+        padding: 3rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border: 1px solid black;
+        grid-area: a;
+    }
+
+    #right{
+        min-width: 50%;
+        min-height: 89%;
+        margin: auto;
+        padding: 2rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border: 1px solid black;
+        grid-area: b;
+    }
+
+    #submit-button{
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        padding: 0.5rem;
+
+    }
+
 
 
 }

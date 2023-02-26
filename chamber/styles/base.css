@@ -45,6 +45,14 @@ form label{
 
 }
 
+input:invalid {
+	border-color: red;
+}
+input,
+input:valid {
+	border-color: green;
+}
+
 
 
 @media screen and (max-width:640px) {
@@ -427,6 +435,34 @@ form label{
      
         text-align: center;
         padding: 1rem;
+    }
+
+    .join-main{
+        margin: 1 rem auto;
+    }
+
+    #left{
+        margin: auto;
+        padding: 3rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border: 1px solid black;
+    }
+
+    #right{
+        margin: auto;
+        padding: 2rem;
+        background-color: #B1D4E0;
+        color: #0C2D48;
+        border: 1px solid black;
+    }
+
+    #submit-button{
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        padding: 0.5rem;
+
     }
 
 
