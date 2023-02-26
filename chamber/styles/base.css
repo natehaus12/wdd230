@@ -12,6 +12,14 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 
+.thankyou-main{
+    background-color: #B1D4E0;
+    color: #0C2D48;
+    text-align: center;
+    padding: 10rem;
+    margin: 0 auto;
+}
+
 #meet-greet{
     display: none;
     background-color: #B1D4E0;
