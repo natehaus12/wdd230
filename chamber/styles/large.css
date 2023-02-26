@@ -542,7 +542,7 @@
     .join-main{
         display: grid;
         grid-template-areas: "a b";
-        margin: 1 rem auto;
+        margin: 1rem auto;
     }
 
     #left{

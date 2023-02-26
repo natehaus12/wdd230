@@ -35,7 +35,7 @@ nav{
 .join-main{
     color: #B1D4E0;
     padding: 1rem;
-    margin-left: 10rem auto;
+    margin-left: 10rem;
     padding-left: 10%;
 }
 
@@ -438,7 +438,7 @@ input:valid {
     }
 
     .join-main{
-        margin: 1 rem auto;
+        margin: 1rem auto;
     }
 
     #left{
