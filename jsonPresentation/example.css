@@ -1,0 +1,9 @@
+main{
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+}
+
+#first-name, #last-name, #major, #class-code-1, #class-code-2, #credit-total{
+    font-weight: bolder;
+}
