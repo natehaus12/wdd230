@@ -1,11 +1,83 @@
 {
     "businesses": [
         {
-            "name": "business1" 
+            "name": "Christensen Automotive Repair",
+            "address": "2614 Sussex Ave South Lake Tahoe",
+            "phoneNumber": "530-544-3162",
+            "websiteUrl": "https://www.christensenautomotive.com/",
+            "imageUrl": "./images/autoRepair.jpg",
+            "membershipLevel": "Gold"
         },
         {
-            "name": "business1" 
+            "name": "Steam Xpress Carpet Care",
+            "address": "Post Office Box 10033",
+            "phoneNumber": "855-578-4362",
+            "websiteUrl": "https://steamxpresscarpetcare.com/",
+            "imageUrl": "./images/carpetCleaning.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "CCS Pirate Treasures",
+            "address": "3330 Lake Tahoe Blvd",
+            "phoneNumber": "530-544-9777",
+            "websiteUrl": "http://ccspiratetreasures.com/",
+            "imageUrl": "./images/clothes.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Big Brothers Big Sisters of El Dorado County",
+            "address": "3461 Robin Ln. #2",
+            "phoneNumber": "530-626-1222",
+            "websiteUrl": "https://www.bbbsns.org/",
+            "imageUrl": "./images/bigSiblings.jpg",
+            "membershipLevel": "NP"
+        },
+        {
+            "name": "Tahoe Dream Events",
+            "address": "3080 Elf Lane",
+            "phoneNumber": "530-577-6027",
+            "websiteUrl": "http://www.tahoedreamevents.com/",
+            "imageUrl": "./images/events.jpg",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Trans-Sierra Investments, Inc",
+            "address": "PO Box 1047",
+            "phoneNumber": "775-265-2087",
+            "websiteUrl": "https://www.corporationwiki.com/Nevada/Minden/trans-sierra-investments-inc/43182147.aspx",
+            "imageUrl": "./images/investments.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Grocery Outlet",
+            "address": "2358 Lake Tahoe Blvd.",
+            "phoneNumber": "334-223-5678",
+            "websiteUrl": "https://www.groceryoutlet.com/store-locator",
+            "imageUrl": "./images/groceryOutlet.jpg",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Borges Chiropractic",
+            "address": "2074 Lake Tahoe Blvd #5",
+            "phoneNumber": "530-544-5800",
+            "websiteUrl": "https://www.borgeschiro.com/",
+            "imageUrl": "./images/chiropractic.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Tahoe Mountain News",
+            "address": "P.O. BOX 8974",
+            "phoneNumber": "530-542-7033",
+            "websiteUrl": "http://www.mountainnews.net/",
+            "imageUrl": "./images/news.jpg",
+            "membershipLevel": "Gold"
         }
+
+
+
+
+
+
 
     ]
 }

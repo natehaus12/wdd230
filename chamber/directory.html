@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/home-page.js" defer></script>
-    <script src="./scripts/weather.js" defer></script>
     <script src="./scripts/discover.js" defer></script>
+    <script src="./scripts/directory.js" defer></script>
 </head>
 <body>
     <header>
@@ -52,11 +52,10 @@
     </header>
     <main class="directory-main">
         <div id="directory-selector">
-            //buttons
+            <button id="directory-grid" class="active">⋮⋮⋮</button>
+            <button id="directory-list">&equiv;</button>
         </div>
-        <div id="directory-data" class="card-selector"></div>
-    
-
+        <div id="directory-data" class="cards"></div>
     </main>
     <footer>
         <div id="containers">

@@ -62,6 +62,77 @@ input:valid {
 }
 
 
+/* Cards view */
+
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+}
+
+#directory-selector{
+    text-align: center;
+}
+
+#directory-selector button{
+    width: 50Px;
+    height: 50px;
+    margin: 3rem;
+
+}
+
+.directory-main img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.cards section{
+    text-align: center;    
+    border: 2px solid white;
+    border-radius: 4px;  
+    width: 300px;
+    background-color: #B1D4E0;
+    color:#0C2D48;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.directory-cards .gold-member{
+    box-shadow: inset 1rem 1rem gold;
+}
+
+/* List View */
+
+.directory-list{    
+    display: grid;
+    justify-items: center;   
+    padding: 1rem;    
+}
+
+.directory-list section img{
+    display: none;
+}
+
+.directory-list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+    background-color: #B1D4E0;
+    color: #0C2D48
+}
+
+.directory-list section:nth-child(even) {
+    background-color: white;
+    color: #0C2D48
+}
+
+
+
 
 @media screen and (max-width:640px) {
 
