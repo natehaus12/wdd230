@@ -33,7 +33,7 @@ const displayBusinesses = (businessses) => {
   businessses.forEach((businesses) => {
     let card = document.createElement("section");
     card.innerHTML = `
-    <img src="${businesses.imageUrl}">
+    <img src="${businesses.imageUrl}" alt="${businesses.name}">
     <p>${businesses.name}</p>
     <p>${businesses.address}</p>
     <p><a href="${businesses.websiteUrl}">${businesses.name}</a></p>

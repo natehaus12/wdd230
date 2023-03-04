@@ -98,7 +98,7 @@ input:valid {
 }
 
 .directory-cards .gold-member{
-    box-shadow: inset 1rem 1rem gold;
+    border: 10px solid gold;
 }
 
 /* List View */
