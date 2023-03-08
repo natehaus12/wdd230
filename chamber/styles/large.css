@@ -575,6 +575,10 @@
 
     }
 
+    #temperature, #description{
+        padding-left: 175%
+    }
+
 
 
 }
