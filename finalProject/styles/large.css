@@ -14,10 +14,18 @@
     nav{
         padding-right: 2rem;
         padding-left: 4rem;
+        
     }
 
     nav a{
-        color: #DAD7CD;
+        color: black;
+        
+    }
+    nav a.active{
+        color: white;
+    }
+    nav a:hover{
+        color: white;
     }
 
     #navbar{
@@ -26,12 +34,14 @@
     }
 
     nav ul li{
+        background-color: #A3b18A;
         text-align: center;
         padding-left: 6rem;
         padding-right: 6rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         border: 1px solid #DAD7CD;
+        
     }
 
 
@@ -109,13 +119,19 @@
         flex-direction: column;
     }
 
+    #instagram, #linkedin{
+        width: 100px;
+    }
     #social-media-content img{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        width: 100px;
         height: 100px;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    #facebook{
+        width:150px
     }
 
     #contact{

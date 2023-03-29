@@ -15,26 +15,45 @@ nav{
     margin-left: 2rem;
     font-family: 'Montserrat', sans-serif;
     padding-right: 1rem;
+    background-color: #588157;
 
 }
 
 nav a{
+    color: black;
+}
+nav a.active{
+    color: white;
+}
+nav a:hover{
     color: white;
 }
 
+nav ul li:hover{
+
+    color: white;
+}
 nav ul li.active{
     background-color: #344e41;
-}s
+    
+}
 
 nav ul li.active a{
+    color: white;
+}
+
+nav ul li:hover a{
+    background-color: #344e41;
     color: white;
 }
 
 nav ul li:hover{
     background-color: #344e41;
-}s
+    color: white;
+}
 
 nav ul li.active a{
+    color: white;
     color: white;
 }
 
@@ -120,7 +139,7 @@ main{
 }
 
 .fresh-main{
-    background-color: #588157;
+    background-color: #344e41;
     color:white;
     margin: auto;
     text-align: left;
@@ -147,7 +166,7 @@ select:valid {
 	border-color: green;
 }
 
-#submit-button{
+#finish-button{
     background-color: #A3b18A;
     color: black;
     border: 1 px solid;
@@ -177,8 +196,12 @@ select:valid {
     margin: auto
 }
 
-.order-main{
+#weather img{
     background-color: #588157;
+}
+
+.order-main{
+    background-color: #344e41;
     color: #DAD7CD;
     text-align: center;
     padding: 2rem;
@@ -217,6 +240,7 @@ select:valid {
         padding-left: 4rem;
         padding-right: 2rem;
         justify-content: flex-end;
+        background-color: #588157;
         
 
     }
@@ -251,7 +275,7 @@ select:valid {
     
     #navbar.menu-active{
             
-        background-color: #A3b18A;
+        background-color: #344e41;
         display: block;
     }
     
@@ -262,6 +286,7 @@ select:valid {
         border: 1px solid #344e41;
         padding: 0.5rem;
         
+        background-color: #A3b18A;
     
     }
     
@@ -306,5 +331,13 @@ select:valid {
         padding-top: 1rem;
         text-align: left;
         margin: auto;
+    }
+
+    #fruit-gif{
+        display: none;
+    }
+
+    #contact-image{
+        display: none;
     }
 }

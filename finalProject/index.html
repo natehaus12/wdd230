@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/counter.js" defer></script>
 </head>
 <body>
     <header>
@@ -112,14 +113,18 @@
                         Click me for Fresh Drinks
                     </button>
                     <p>You have ordered <span id="number-of-drinks"></span> drinks.</p>
+
+                    <div id="fruit-gif">
+                        <img src="./images/fruit-drink.png" alt="drink-fun">
+                    </div>
                 </div>
             </div>
             <div id="social-media">
                 <h3>Check Us Out on Social Media</h3>
                 <div id="social-media-content">
-                    <img src="./images/instagram-logo.png" alt="instagram" height="50px" width="50px" loading="lazy">
-                    <img src="./images/facebook-logo.png" alt="facebook" height="50px" width="50px" loading="lazy">
-                    <img src="./images/linkedin-logo.png" alt="linkedin" height="50px" width="50px" loading="lazy">
+                    <img id="instagram" src="./images/instagram-logo.png" alt="instagram" height="50px" width="50px" loading="lazy">
+                    <img id="facebook" src="./images/facebook-logo.png" alt="facebook" height="50px" width="50px" loading="lazy">
+                    <img id="linkedin" src="./images/linkedin-logo.png" alt="linkedin" height="50px" width="50px" loading="lazy">
                 </div>
             </div>
             <div id="contact">
@@ -129,6 +134,9 @@
                     <p>Email: bountifulfoods@foodie.come</p>
                     <p>Address: 15 Lakeside Rd <br> Carlsbad, CA</p>
                     <p>Check our instagram for today's food truck locations!</p>
+                </div>
+                <div id="contact-image">
+                    <img src="./images/contact.png" alt="contact">
                 </div>
             </div>
         </div>

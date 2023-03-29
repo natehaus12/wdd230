@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/fresh.js" defer></script>
+    <script src="./scripts/counter.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,7 +28,7 @@
                     <span id="menu-close">&equiv;</span>
                     <span id="menu-open">X</span></button>
                 <ul id="navbar">
-                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="aboutUs.html">About Us</a></li>
                     <li class="active"><a href="fresh.html">Fresh</a></li>
     
@@ -44,7 +45,7 @@
         
         <div id="form">
             <h2>Build Your Drink!</h2>
-            <form method="GET" action="order.html" >
+            <form method="GET" action="order.html" id="fresh-form">
                 <label for="fname">First name:*</label><br>
                     <input type="text" id="fname" name="fname" required><br>
                     <br>
@@ -75,7 +76,7 @@
                     </textarea><br><br><br>
 
 
-                    <input type="submit" id="submit-button" value="Place Your Order">
+                    <input type="submit" id="finish-button" value="Place Your Order">
                     <br><br>
 
 

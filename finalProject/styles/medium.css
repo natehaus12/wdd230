@@ -110,8 +110,19 @@
         color: #DAD7CD;
     }
 
-    #social-media-content img{
+    #facebook{
+        width: 100px
+    }
+
+    #instagram{
+        width: 75px
+    }
+
+    #linkedin{
         width: 75px;
+    }
+
+    #social-media-content img{
         height: 75px;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -144,5 +155,10 @@
         text-align: left;
         margin: auto;
     }
+    #contact-image{
+        display: none;
+    }
+
+
 
 }
