@@ -1,0 +1,148 @@
+@media screen and (min-width:640px) and (max-width:900px) {
+
+    #title br{
+        content:' ';
+    }
+    #title br:after{
+        content:' ';
+    }
+
+    #title{
+        padding-left: 5rem
+    }
+
+    nav{
+        padding-left: 12rem;
+        padding-right: 2rem;
+        justify-content: flex-end;
+
+    }
+
+
+    #hamburger-menu{
+
+        width: 50px;
+        height: 50px;
+        font-size: xx-large;
+        background-color: #A3b18A;
+        color:white
+    }
+    
+    #menu-open.menu-active{
+        display: inline;
+    }
+    #menu-close.menu-active{
+        display: none;
+    }
+    
+    #menu-open{
+        display: none;
+    }
+    
+    #menu-close{
+        display: inline;
+    }
+    
+    #navbar{
+        display: none
+    }
+    
+    #navbar.menu-active{
+            
+        background-color: #A3b18A;
+        display: block;
+    }
+    
+    
+    nav ul li{
+        text-align: center;
+        list-style-type: none;
+        border: 1px solid #344e41;
+        padding: 0.5rem;
+        
+    
+    }
+    
+    nav ul{
+        position: relative;
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+
+    #summary-content{
+        display: flex;
+    }
+
+    #summary-content p{
+        padding: 1rem;
+    }
+
+    #drink-3{
+        display: none;
+    }
+
+    #medium-grid{
+        display:grid;
+        grid-template-areas: "one two"
+                             "three four";
+    }
+    
+    #weather{
+        grid-area: one ;
+    }
+    #call-to-action{
+        grid-area: two ;
+    }
+    #social-media{
+        grid-area: three ;
+    }
+    #contact{
+        grid-area: four;
+    }
+    #social-media{
+        background-color: #344e41;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem;
+        color: #DAD7CD;
+    }
+
+    #social-media-content img{
+        width: 75px;
+        height: 75px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #contact{
+        background-color: #344e41;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem;
+        color: #DAD7CD;
+    }
+
+    #popular-drinks{
+        display: none;
+    }
+
+    #form{
+    padding-top: 2rem;
+    padding-bottom: 2rem ;
+    }
+
+    footer{
+        padding-top: 2rem
+    }
+    #title{
+        width: 100%;
+    
+        padding-top: 1rem;
+        text-align: left;
+        margin: auto;
+    }
+
+}

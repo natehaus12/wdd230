@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+main{
+    text-align: center;
+
+}
+
+header{
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main div{
+    background-color: azure;
+} 
+
+.cards{
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    grid-gap: 1rem;
+}
+
+.cards img{
+    max-width: 220px;
+    max-height: 300px;
+}
+
+
+
+

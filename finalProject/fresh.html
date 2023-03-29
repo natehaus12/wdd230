@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="For WDD 230 Winter 2023 this is the Final Project Fresh Page for Nate Hollingshaus ">
+    <title>Bountiful Foods Fresh Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/fresh.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="main-header">
+            <div id="main-logo">
+                <a href="index.html"><img src="./images/logo.webp" alt="Bountiful Foods Logo" width="70" height="70" loading="lazy"></a>
+            </div>
+            <div id="title">
+                    <h1>Bountiful <br> Foods</h1>
+                </div>
+            <nav>
+                <button id="hamburger-menu">
+                    <span id="menu-close">&equiv;</span>
+                    <span id="menu-open">X</span></button>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li class="active"><a href="fresh.html">Fresh</a></li>
+    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="fresh-main">
+
+        <div id="title">
+
+            <h1>Fresh Drinks</h1>
+        </div>
+        
+        <div id="form">
+            <h2>Build Your Drink!</h2>
+            <form method="GET" action="order.html" >
+                <label for="fname">First name:*</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <br>
+
+                    <label for="email">Email:*</label><br>
+                    <input type="email" id="email" name="email" placeholder="chamber@laketahoe.com" required><br>
+                    <br>
+
+                    <label for="cell">Cell Phone:*</label><br>
+                    <input type="tel" id="cell" name="cell" required><br>
+                    <br>
+
+                    <h3>Please Select Up to 3 Fruits for your Drink (At Least 1)</h3>
+                    <select name="fruits1" id="fruits1" class="fruit-list1" required>
+                        <option value="">Fruit 1</option>
+                    </select>
+                    <select name="fruits2" id="fruits2" class="fruit-list2">
+                        <option value="">Fruit 2</option>
+                    </select>
+                    <select name="fruits3" id="fruits3" class="fruit-list3">
+                        <option value="">Fruit 3</option>
+                    </select><br><br>
+
+                    <label for="special-instructions">Special Instructions:</label><br>
+
+                    <textarea id="special-instructions" name="special-instructions" value="" rows="4" cols="30">
+                        
+                    </textarea><br><br><br>
+
+
+                    <input type="submit" id="submit-button" value="Place Your Order">
+                    <br><br>
+
+
+                </form>
+         </div>
+
+        <div id="popular-drinks">
+            <h2>Our Most Popular Drinks</h2><br>
+                
+                    <h4>Strawberry Lemonade</h4>
+                    <img src="./images/strawberry-lemonade.png" alt="strawberry-lemonade" width="150" height="200" loading="lazy">
+                    <p>With locally grown startberries and lemons, this all natural drink is our most popular.
+                        No added sugar, just pure delcious.
+                    </p>
+               
+                
+                    <h4>Cherry Limeade</h4>
+                    <img src="./images/cherry-limeade.png" alt="cherry-limeade" width="150" height="200" loading="lazy">
+                    <p>This Drink reminds us of pure summer. Refreshing local cherries mixed in to our delicious
+                        organic limeade. Refreshing!
+                    </p>
+        
+        </div>
+
+    </main>
+    <footer>
+        <div id="containers">
+            <div id="container-1">
+                <img src="./images/logo.webp" alt="Bountiful Foods Logo" width="150" height="150" loading="lazy">
+            </div>
+            <div id="container-2">
+                <h3>Bountiful Foods</h3>
+                <p>15 Lakeside Rd <br> Carlsbad, CA 9546</p>
+            </div>
+            <div id="container-3">
+                <p>&copy;  Bountiful Foods
+                <br> Nate Hollingshaus <br> WDD 230 Project <br> <span id="last-line">Last Modification: <span id="lastmodified"></span></span></p>
+            </div>
+        </div>
+   
+
+
+
+    
+</body>
+</html>

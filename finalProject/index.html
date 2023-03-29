@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="For WDD 230 Winter 2023 this is the Final Project Home Page for Nate Hollingshaus ">
+    <title>Bountiful Foods Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="main-header">
+            <div id="main-logo">
+                <a href="index.html"><img src="./images/logo.webp" alt="Bountiful Foods Logo" width="70" height="70" loading="lazy"></a>
+            </div>
+            <div id="title">
+                    <h1>Bountiful <br> Foods</h1>
+                </div>
+            <nav>
+                <button id="hamburger-menu">
+                    <span id="menu-close">&equiv;</span>
+                    <span id="menu-open">X</span></button>
+                <ul id="navbar">
+                    <li class="active"><a class="active" href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="home-main">
+        <div id="summary">
+            <h3>Summary</h3><br>
+            <div id="summary-content">
+                <img src="./images/rasberries.png" alt="rasberries" width="200" height="200" loading="lazy">
+            
+                <p>Here at Bountiful Foods, we focus on organic, and locally grown foods. Although our HQ is in Carlsbad,
+                    we have food trucks selling our fresh fruit from local farmers in various areas around Newport Beach, San Diego, 
+                    and Downtown Los Angeles. We believe our fresh and fruity drinks are the best on the west coast! Not only do we
+                    sell out of our food truck, but we also offer drinks at our HQ! Visit one of our locations today to try the best in the west!
+
+                </p>
+            </div>
+
+        </div>
+        <div id="drinks">
+            <h3>Our Most Popular Drinks</h3><br>
+            <div id="drinks-content">
+                <div id="drink-1">
+                    <h4>Strawberry Lemonade</h4>
+                    <img src="./images/strawberry-lemonade.png" alt="strawberry-lemonade" width="150" height="200" loading="lazy">
+                    <p>With locally grown startberries and lemons, this all natural drink is our most popular.
+                        No added sugar, just pure delcious.
+                    </p>
+                </div>
+                <div id="drink-2">
+                    <h4>Cherry Limeade</h4>
+                    <img src="./images/cherry-limeade.png" alt="cherry-limeade" width="150" height="200" loading="lazy">
+                    <p>This Drink reminds us of pure summer. Refreshing local cherries mixed in to our delicious
+                        organic limeade. Refreshing!
+                    </p>
+                </div>
+                <div id="drink-3">
+                    <h4>Mango Pineapple</h4>
+                    <img src="./images/coconut-pineapple.png" alt="coconut-pineapple" height="200" loading="lazy">
+                    <p>Our take on a more sour pina colada. No sugar, farm freshed fruit, and all the sweet you need.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="medium-grid">
+
+            <div id="weather">
+                <h3>Weather</h3>
+                <div id="weather-content">
+                    <div id="current-weather">
+                        <figure>
+                            <img src="https://dummyimage.com/640x360/fff/aaa" alt="" id="weatherIcon">
+                            <figcaption></figcaption>
+                        </figure>
+                        
+                        <h3><span id="current-temperature"></span>&deg;F <br><br> <span id="humidity"></span>% Humidity<br> <br> <span id="description"></span> </span></h3>
+                    </div>
+                    <hr>
+                    <h3>3 Day Forecast</h3>
+                    <div id="forecast">
+                        <div id="forecast-content-1">
+                            <p><span id="date1"></span> <hr> <span id="forecast-1"></span>&deg;F</p>
+                        </div>
+                        <div id="forecast-content-2">
+                            <p><span id="date2"></span> <hr> <span id="forecast-2"></span>&deg;F</p>
+                        </div>
+                        <div id="forecast-content-3">
+                            <p><span id="date3"></span> <hr> <span id="forecast-3"></span>&deg;F</p>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <div id="call-to-action">
+                <h3>Buy a Drink!</h3>
+                <div id="call-to-action-content">
+                    <button onclick="window.location.href = 'fresh.html';">
+                        Click me for Fresh Drinks
+                    </button>
+                    <p>You have ordered <span id="number-of-drinks"></span> drinks.</p>
+                </div>
+            </div>
+            <div id="social-media">
+                <h3>Check Us Out on Social Media</h3>
+                <div id="social-media-content">
+                    <img src="./images/instagram-logo.png" alt="instagram" height="50px" width="50px" loading="lazy">
+                    <img src="./images/facebook-logo.png" alt="facebook" height="50px" width="50px" loading="lazy">
+                    <img src="./images/linkedin-logo.png" alt="linkedin" height="50px" width="50px" loading="lazy">
+                </div>
+            </div>
+            <div id="contact">
+                <h3>Contact Us</h3>
+                <div id="contact-us-content">
+                    <p>Phone Number: 916-397-9499</p>
+                    <p>Email: bountifulfoods@foodie.come</p>
+                    <p>Address: 15 Lakeside Rd <br> Carlsbad, CA</p>
+                    <p>Check our instagram for today's food truck locations!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="containers">
+            <div id="container-1">
+                <img src="./images/logo.webp" alt="Bountiful Foods Logo" width="150" height="150" loading="lazy">
+            </div>
+            <div id="container-2">
+                <h3>Bountiful Foods</h3>
+                <p>15 Lakeside Rd <br> Carlsbad, CA 9546</p>
+            </div>
+            <div id="container-3">
+                <p>&copy;  Bountiful Foods
+                <br> Nate Hollingshaus <br> WDD 230 Project <br> <span id="last-line">Last Modification: <span id="lastmodified"></span></span></p>
+            </div>
+        </div>
+   
+
+
+
+    
+</body>
+</html>

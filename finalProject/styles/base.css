@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+html{
+    background-color: #588157;
+    
+}
+
+header, footer{
+    font-family: 'Raleway', sans-serif;
+    background-color: #588157;
+    color: black;
+    
+}
+nav{
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 1rem;
+
+}
+
+nav a{
+    color: white;
+}
+
+nav ul li.active{
+    background-color: #344e41;
+}s
+
+nav ul li.active a{
+    color: white;
+}
+
+nav ul li:hover{
+    background-color: #344e41;
+}s
+
+nav ul li.active a{
+    color: white;
+}
+
+#main-header{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 98%;
+    margin: 1rem auto;
+}
+
+
+
+#title{
+    margin-left: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    padding-left: 1rem;
+
+}
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+#summary{
+    background-color: #344e41;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+     color: white;
+}
+
+#drinks{
+    background-color: #344e41;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+#drinks-content{
+    display: grid;
+    grid-template-areas: "one two";
+}
+
+#drink-1{
+    grid-area: one;
+}
+#drink-2{
+    grid-area: two;
+}
+
+#weather{
+    background-color: #344e41;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    color: white
+}
+
+#call-to-action{
+    background-color: #344e41;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+#call-to-action button{
+    background-color: #A3b18A;
+    color: #344e41;
+    border: 1 px solid;
+    border-radius: 5px;
+    height: 60px;
+    padding: 0.5rem;
+}
+
+#containers{
+    text-align: center;
+}
+
+.fresh-main{
+    background-color: #588157;
+    color:white;
+    margin: auto;
+    text-align: left;
+    padding: 0rem 10rem 0rem;
+}
+
+.fresh-main form input, option, select{
+    padding: 1rem
+}
+
+input:invalid {
+	border-color: red;
+}
+input,
+input:valid {
+	border-color: green;
+}
+
+select:invalid {
+	border-color: red;
+}
+select,
+select:valid {
+	border-color: green;
+}
+
+#submit-button{
+    background-color: #A3b18A;
+    color: black;
+    border: 1 px solid;
+    border-radius: 5px;
+    height: 60px;
+    padding: 1rem;
+}
+
+#forecast{
+    display: grid;
+    grid-template-areas: "one two three";
+}
+
+#forecast-content-1{
+    align-items: center;
+    grid-area: one;
+    margin: auto
+}
+#forecast-content-2{
+    align-items: center;
+    grid-area:two;
+    margin: auto
+}
+#forecast-content-3{
+    align-items: center;
+    grid-area: three;
+    margin: auto
+}
+
+.order-main{
+    background-color: #588157;
+    color: #DAD7CD;
+    text-align: center;
+    padding: 2rem;
+}
+
+#customer-info, #fruit-info{
+    border: 1px solid black;
+}
+
+
+
+@media screen and (max-width:640px) {
+
+    #summary{
+        min-width: 100%;
+    }
+    #drinks{
+        min-width: 100%;
+    }
+    #weather{
+        min-width: 100%;
+    }
+    #call-to-action{
+        min-width: 100%;
+    }
+    footer{
+        min-width: 100%;
+        padding-left: 2.5em;
+    }
+
+    
+
+    
+
+    nav{
+        padding-left: 4rem;
+        padding-right: 2rem;
+        justify-content: flex-end;
+        
+
+    }
+
+    #hamburger-menu{
+
+        width: 50px;
+        height: 50px;
+        font-size: xx-large;
+        background-color: #A3b18A;
+        color:white
+    }
+    
+    #menu-open.menu-active{
+        display: inline;
+    }
+    #menu-close.menu-active{
+        display: none;
+    }
+    
+    #menu-open{
+        display: none;
+    }
+    
+    #menu-close{
+        display: inline;
+    }
+    
+    #navbar{
+        display: none
+    }
+    
+    #navbar.menu-active{
+            
+        background-color: #A3b18A;
+        display: block;
+    }
+    
+    
+    nav ul li{
+        text-align: center;
+        list-style-type: none;
+        border: 1px solid #344e41;
+        padding: 0.5rem;
+        
+    
+    }
+    
+    nav ul{
+        position: relative;
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+
+    #drink-3{
+        display: none;
+    }
+
+    #social-media{
+        display: none;
+    }
+
+    #contact{
+        display: none;
+    }
+    #popular-drinks{
+        display: none;
+    }
+
+    #form{
+        padding-top: 2rem;
+        padding-bottom: 2rem ;
+    }
+
+    
+    footer{
+        padding-top: 2rem
+    }
+
+
+    #title{
+        width: 100%;
+    
+        padding-top: 1rem;
+        text-align: left;
+        margin: auto;
+    }
+}

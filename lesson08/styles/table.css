@@ -1,0 +1,45 @@
+table{
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 1rem;
+    caption-side: bottom;
+}
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
+thead{
+    padding: 1rem;
+}
+th{
+    padding: 1rem;
+}
+
+thead tr{
+    background: lightblue;
+    padding: 1rem;
+}
+
+thead tr:nth-child(2) th:nth-child(1){
+    padding: 1rem;
+    background-color: lightblue;
+    border-top: 1px lightblue solid;
+}
+
+thead tr:nth-child(2) th{
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+}
+tbody   {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: center;
+}
+tbody tr:nth-child(2){
+    padding: 1rem;
+    background-color: lightgrey;
+
+}

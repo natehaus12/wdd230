@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&display=swap');
+
+body{
+    background-color: rgb(168, 226, 245);
+    padding-top: 20px
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(8, 8, 102), blue);
+    color: white;
+    border: 2px black solid;
+}
+
+header img{
+    /*160 x 160*/
+    margin: 1rem;
+}
+
+header h1{
+    text-align: center;
+}
+
+header div:nth-child(2){
+    width: 100%
+}
+
+main h2{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+ul {
+    font-family: 'Rowdies', cursive;
+    list-style-position: inside;
+    text-align: center;
+}
+
+#content{
+    margin: 0 auto;
+    padding-left: 250px;
+    padding-right: 250px
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background-image: linear-gradient(blue, rgb(8, 8, 102));
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+}

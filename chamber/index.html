@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Home Page for WDD230 Lake Tahoe Chamber of Commerc">
+    <title>Lake Tahoe Chamber of Commerce Home Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/home-page.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="meet-greet"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+        <div id="main-header">
+            <div id="main-logo">
+                <a href="index.html"><img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="70" height="70"></a>
+            </div>
+            <div id="title">
+                    <h1>Lake Tahoe</h1> <h2>Chamber of Commerce </h2>
+                </div>
+            <div id="socials">
+        
+                <a href="https://www.facebook.com/"><img id="facebook" src="./images/facebook-logo.png" alt="facebook-logo" width="35" height="35"></a>
+                <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/linkedin-logo.png" alt="linkedin-header" width="35" height="45"></a>
+            </div>
+            <nav>
+                <button id="hamburger-menu">
+                    <span id="menu-close">&equiv;</span>
+                    <span id="menu-open">X</span></button>
+                <ul id="navbar">
+                    <li class="active"><a class="active" href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div id="top-date">
+            <span id="header-date"></span>
+        </div>
+
+    </header>
+    <main class="home-main">
+        <div id="hero">
+
+            <img src="./images/hero.jpg" alt="hero_img" loading="lazy">
+            <div id="welcome">
+                <p>Welcome to Lake Tahoe</p>
+            </div>
+            <div id="hero-button">
+                    <button onclick="window.location.href = 'join.html';">
+                        Join the Chamber
+                    </button>
+            </div>
+        </div>
+        <div id="event-weather">
+            <div id="event">
+                <h2> Kayaking </h2>
+                <h3> The Kayak Shop </h3>
+                <h4>Join us for the grand opening of the Kayak Shop. Monday at noon.</h4>
+                    
+            </div>
+            <div id="weather">
+                <h2>Weather</h2>
+                <div id="weather-info">
+                    <figure>
+                        <img src="https://dummyimage.com/640x360/fff/aaa" alt="" id="weatherIcon">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <h3><span id="temperature"></span>&deg;F <br> <br> <span id="description"></span></h3>
+                </div>
+                <hr>
+                <div id="wind-info">
+                    <h4>Wind Speed: <span id="windspeed"></span>mph</h4>
+                    <h4>Wind Chill: <span id="windchill"></span></h4>
+                </div>
+
+            </div>
+        </div>
+        <div id="news-release">
+            <h2>News Release</h2>
+            <h4>Tahoe ski resorts are still recovering from last years record breaking fire.
+                Sierra at Tahoe saw the worst of the fire. Sierra was not able to open at all last year,
+                but this year, they arguably have benfitted from the fire. Sierra now has 2 more acres of skiiable terrain,
+                and plans to turn those into actual runs or terrain parks are soon to come.
+            </h4>
+        </div>
+        <div id="spotlights" class="spotlightSelect">
+   
+        </div>
+        <div id="join">
+                <button onclick="window.location.href = 'join.html';">Join Us!</button>
+            <h3>Discover how to join the chamber of commerce and how it can help your orginization or business.</h3>
+
+        </div>
+
+    </main>
+    <footer>
+        <div id="containers">
+            <div id="container-1">
+                <img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="150" height="150">
+            </div>
+            <div id="container-2">
+                <h3>Lake Tahoe Chamber of Commerce </h3>
+                <p>15 Lakeside Rd <br> Lake Tahoe, CA 9546</p>
+            </div>
+            <div id="container-3">
+                <p>info@tahoecc.org</p>
+                <p>+(234) 560-2165</p>
+                <img src="./images/map-pin.jpg" alt="map-pin-icon" height="20" width="20"><a href="https://www.google.com/maps/@39.0800107,-120.0353557,11z">Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div id="customize-footer">
+            <p>&copy;  Lake Tahoe Chamber
+            <br> Nate Hollingshaus <br> WDD 230 Project <br> <span id="last-line">Last Modification: <span id="lastmodified"></span></span></p>
+        </div>
+
+
+
+    </footer>
+</body>
+</html>

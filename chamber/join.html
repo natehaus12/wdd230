@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Join Page for WDD230 Lake Tahoe Chamber of Commerce">
+    <title>Lake Tahoe Chamber of Commerce Join Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/discover.js" defer></script>
+    <script src="./scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="meet-greet"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+        <div id="main-header">
+            <div id="main-logo">
+                <a href="index.html"><img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="70" height="70"></a>
+            </div>
+            <div id="title">
+                    <h1>Lake Tahoe</h1> <h2>Chamber of Commerce </h2>
+                </div>
+            <div id="socials">
+        
+                <a href="https://www.facebook.com/"><img id="facebook" src="./images/facebook-logo.png" alt="facebook-logo" width="35" height="35"></a>
+                <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/linkedin-logo.png" alt="linkedin-header" width="35" height="45"></a>
+            </div>
+            <nav>
+                <button id="hamburger-menu">
+                    <span id="menu-close">&equiv;</span>
+                    <span id="menu-open">X</span></button>
+                <ul id="navbar">
+                    <li class="active"><a class="active" href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div id="top-date">
+            <span id="header-date"></span>
+        </div>
+
+    </header>
+    <main class="join-main">
+        <div id="left">
+            <form method="GET" action="thankyou.html" >
+            <label for="fname">First name:*</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <br>
+
+                <label for="lname">Last Name:*</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <br>
+
+                <label for="businessP">Title:</label><br>
+                <input type="text" id="businessP" name="businessP" pattern="[a-zA-Z- ]{7,100}"><br>
+                <br>
+
+                <label for="email">Email:*</label><br>
+                <input type="email" id="email" name="email" placeholder="chamber@laketahoe.com" required><br>
+                <br>
+
+                <label for="cell">Cell Phone:*</label><br>
+                <input type="tel" id="cell" name="cell" required><br>
+                <br>
+
+                
+                <label for="businessN">Business Name:*</label><br>
+                <input type="text" id="businessN" name="businessN" required><br>
+                <br>
+
+                <p>Please Select a Membership Level:</p>
+
+                <input type="radio" id="np" name="membership" value="np">
+                <label for="np">NP Membership for Non Profits</label><br>
+                <input type="radio" id="bronze" name="membership" value="bronze">
+                <label for="bronze">Bronze Membership</label><br>
+                <input type="radio" id="silver" name="membership" value="silver">
+                <label for="silver">Silver Membership</label><br>
+                <input type="radio" id="gold" name="membership" value="gold">
+                <label for="gold">Gold Membership</label><br><br>
+
+
+                <label for="businessD">Business Description:</label><br>
+
+                <textarea id="businessD" name="businessD" rows="10" cols="40">Please provide a Description of your Business.
+                </textarea>
+
+                <input type="hidden" id="hiddenTime">
+                <br><br>
+
+
+                <input type="submit" id="submit-button" value="Join the Chamber!">
+
+
+            </form>
+      </div>
+
+      <div id="right">
+        <h3>Membership Level Benefits</h3>
+        <h4>NP Membership</h4>
+        <ul>
+            <li>For none profit organizations and there is no fee</li>
+        </ul>
+
+    
+        <h4>Bronze Membership</h4>
+        <ul>
+            <li>15% dicsount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+        </ul>
+
+        <h4>Silver Membership</h4>
+        <ul>
+            <li>25% dicsount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in trade fair</li>
+            <li>Fee of $100/month</li>
+        </ul>
+
+        <h4>Gold Membership</h4>
+        <ul>
+            <li>50% dicsount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+        </ul>
+      </div>
+
+    </main>
+    <footer>
+        <div id="containers">
+            <div id="container-1">
+                <img src="./images/logo.webp" alt="Lake Tahoe COC Logo" width="150" height="150">
+            </div>
+            <div id="container-2">
+                <h3>Lake Tahoe Chamber of Commerce </h3>
+                <p>15 Lakeside Rd <br> Lake Tahoe, CA 9546</p>
+            </div>
+            <div id="container-3">
+                <p>info@tahoecc.org</p>
+                <p>+(234) 560-2165</p>
+                <img src="./images/map-pin.jpg" alt="map-pin-icon" height="20" width="20"><a href="https://www.google.com/maps/@39.0800107,-120.0353557,11z">  Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <div id="customize-footer">
+            <p>&copy;  Lake Tahoe Chamber
+            <br> Nate Hollingshaus <br> WDD 230 Project <br> <span id="last-line">Last Modification: <span id="lastmodified"></span></span> Last Visit: <span id="last-visit"> </span> days ago</p>
+        </div>
+
+
+
+    </footer>
+</body>
+</html>

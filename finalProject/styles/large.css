@@ -1,0 +1,195 @@
+@media screen and (min-width:900px) {
+
+    #title br{
+        content:' ';
+    }
+    #title br:after{
+        content:' ';
+    }
+    #title{
+        padding-top: 0.5rem;
+    }
+    
+
+    nav{
+        padding-right: 2rem;
+        padding-left: 4rem;
+    }
+
+    nav a{
+        color: #DAD7CD;
+    }
+
+    #navbar{
+        display: flex;
+        list-style-type: none;
+    }
+
+    nav ul li{
+        text-align: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 1px solid #DAD7CD;
+    }
+
+
+    #hamburger-menu{
+        display: none;
+    }
+
+    .home-main{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-areas: "one one two two"
+                            "three three three three"
+    }
+
+    #medium-grid{
+        margin: auto;
+        width: 100%;
+        grid-area: three;
+        display: flex
+    }
+
+    #summary{
+        grid-area: one;
+    }
+
+    #drinks{
+        padding: 0.5rem;
+        grid-area: two;
+    }
+    #weather{
+        grid-area: one;
+    }
+
+    #call-to-action{
+        grid-area: two;
+    }
+
+
+    #summary-content img{
+        float:left;
+        margin: 2rem
+    }
+
+
+    #summary-content p{
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #drinks-content{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: grid;
+        grid-template-areas: "one two three";
+    }
+    
+    #drink-3{
+        grid-area: three;
+    }
+
+    #social-media{
+        background-color: #344e41;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem;
+        color: #DAD7CD;
+        
+    }
+
+    #social-media-content{
+       
+        align-items: center ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #social-media-content img{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100px;
+        height: 100px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #contact{
+        background-color: #344e41;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem;
+        color: #DAD7CD;
+    }
+
+    #containers{
+        width: 100%;
+        display: flex;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #container-1{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    #container-2{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    #container-3{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .fresh-main{
+        display: grid;
+        grid-template-areas: "one one"
+                             "two three";
+    }
+
+    #title{
+        width: 100%;
+        grid-area: one;
+        padding-top: 1rem;
+        text-align: center;
+        margin: auto;
+    }
+    #form{
+        grid-area: two;
+    }
+    #popular-drinks{
+        grid-area: three;
+        text-align: center;
+        margin: 0rem 0rem 0rem 7rem;
+    }
+    footer{
+        padding-top: 2rem;
+    }
+
+    #order-grid{
+        display: grid;
+        grid-template-areas: "one two";
+    }
+
+    #customer-info{
+        grid-area: one;
+
+    }
+
+    #fruit-info{
+        grid-area: two;
+
+
+    }
+
+
+
+
+}
