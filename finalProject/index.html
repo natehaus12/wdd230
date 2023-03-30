@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
-    <script src="./scripts/counter.js" defer></script>
+    <script src="./scripts/changeLS.js" defer></script>
+    <script src="./scripts/set-counter.js" defer></script>
 </head>
 <body>
     <header>
@@ -84,7 +85,7 @@
                 <div id="weather-content">
                     <div id="current-weather">
                         <figure>
-                            <img src="https://dummyimage.com/640x360/fff/aaa" alt="" id="weatherIcon">
+                            <img src="https://dummyimage.com/640x360/fff/aaa" alt="" id="weatherIcon" loading="lazy">
                             <figcaption></figcaption>
                         </figure>
                         
@@ -115,7 +116,7 @@
                     <p>You have ordered <span id="number-of-drinks"></span> drinks.</p>
 
                     <div id="fruit-gif">
-                        <img src="./images/fruit-drink.png" alt="drink-fun">
+                        <img src="./images/fruit-drink.png" alt="drink-fun" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@
                     <p>Check our instagram for today's food truck locations!</p>
                 </div>
                 <div id="contact-image">
-                    <img src="./images/contact.png" alt="contact">
+                    <img src="./images/contact.png" alt="contact" loading="lazy">
                 </div>
             </div>
         </div>

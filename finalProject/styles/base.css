@@ -18,6 +18,12 @@ nav{
     background-color: #588157;
 
 }
+.about-main{
+    background-color: #344e41;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
 
 nav a{
     color: black;
@@ -127,7 +133,7 @@ main{
 
 #call-to-action button{
     background-color: #A3b18A;
-    color: #344e41;
+    color: black;
     border: 1 px solid;
     border-radius: 5px;
     height: 60px;
@@ -202,13 +208,13 @@ select:valid {
 
 .order-main{
     background-color: #344e41;
-    color: #DAD7CD;
+    color: white;
     text-align: center;
     padding: 2rem;
 }
 
 #customer-info, #fruit-info{
-    border: 1px solid black;
+    border: 2px solid white;
 }
 
 
@@ -227,10 +233,7 @@ select:valid {
     #call-to-action{
         min-width: 100%;
     }
-    footer{
-        min-width: 100%;
-        padding-left: 2.5em;
-    }
+
 
     
 
@@ -319,10 +322,7 @@ select:valid {
         padding-bottom: 2rem ;
     }
 
-    
-    footer{
-        padding-top: 2rem
-    }
+
 
 
     #title{
@@ -340,4 +340,57 @@ select:valid {
     #contact-image{
         display: none;
     }
+
+    #about-title{
+        padding: 1rem;
+    }
+
+    #owners{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    #newport-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #hunington-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #san-deigo-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #downtown-la{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white;
+        
+    }
+    
+
+
+    #locations-title{
+        border: none;
+    }
+
+    footer{
+        width: 70%;
+        margin: auto;
+        padding-top: 2rem
+
+    }
+
+    
 }

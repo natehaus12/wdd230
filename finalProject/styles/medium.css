@@ -1,4 +1,5 @@
 @media screen and (min-width:640px) and (max-width:900px) {
+   
 
     #title br{
         content:' ';
@@ -107,7 +108,7 @@
         padding: 1rem;
         text-align: center;
         margin: 1rem;
-        color: #DAD7CD;
+        color: white;
     }
 
     #facebook{
@@ -133,7 +134,7 @@
         padding: 1rem;
         text-align: center;
         margin: 1rem;
-        color: #DAD7CD;
+        color: white;
     }
 
     #popular-drinks{
@@ -157,6 +158,44 @@
     }
     #contact-image{
         display: none;
+    }
+
+    #about-title{
+        padding: 1rem;
+    }
+
+    #owners{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    #newport-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #hunington-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #san-deigo-beach{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #downtown-la{
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white;
+        
     }
 
 

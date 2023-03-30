@@ -1,5 +1,15 @@
 @media screen and (min-width:900px) {
 
+    .fresh-main{
+        padding-bottom: 2rem;
+    }
+
+    #form, #popular-drinks{
+
+        border: 3px solid white;
+        padding: 3rem;
+    }
+
     #title br{
         content:' ';
     }
@@ -73,10 +83,12 @@
         grid-area: two;
     }
     #weather{
+        width: 100%;
         grid-area: one;
     }
 
     #call-to-action{
+        width: 100%;
         grid-area: two;
     }
 
@@ -104,11 +116,12 @@
     }
 
     #social-media{
+        width: 100%;
         background-color: #344e41;
         padding: 1rem;
         text-align: center;
         margin: 1rem;
-        color: #DAD7CD;
+        color: white;
         
     }
 
@@ -135,11 +148,12 @@
     }
 
     #contact{
+        width: 100%;
         background-color: #344e41;
         padding: 1rem;
         text-align: center;
         margin: 1rem;
-        color: #DAD7CD;
+        color: white;
     }
 
     #containers{
@@ -178,6 +192,7 @@
         margin: auto;
     }
     #form{
+        width: 100%;
         grid-area: two;
     }
     #popular-drinks{
@@ -187,6 +202,7 @@
     }
     footer{
         padding-top: 2rem;
+        margin-top: 2rem;
     }
 
     #order-grid{
@@ -203,6 +219,54 @@
         grid-area: two;
 
 
+    }
+
+    #about-title{
+        padding: 1rem;
+    }
+
+    #owners{
+        margin: 0rem 5rem 0rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    #locations-grid{
+        display: grid;
+        grid-template-areas: "one two"
+                             "three four";
+    }
+
+    #newport-beach{
+        grid-area: one;
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #hunington-beach{
+        grid-area: two;
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #san-deigo-beach{
+        grid-area: three;
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white
+    }
+
+    
+    #downtown-la{
+        grid-area: four;
+        margin:1rem;
+        padding: 1rem;
+        border: 1px solid white;
+        
     }
 
 
