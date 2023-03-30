@@ -149,7 +149,7 @@
     footer{
         padding-top: 2rem
     }
-    #title{
+    #title, #fresh-title{
         width: 100%;
     
         padding-top: 1rem;

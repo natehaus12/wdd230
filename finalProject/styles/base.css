@@ -73,7 +73,7 @@ nav ul li.active a{
 
 
 
-#title{
+#title , #fresh-title{
     margin-left: 2rem;
     text-align: center;
     position: relative;
@@ -134,7 +134,7 @@ main{
 #call-to-action button{
     background-color: #A3b18A;
     color: black;
-    border: 1 px solid;
+    border: 1px solid;
     border-radius: 5px;
     height: 60px;
     padding: 0.5rem;
@@ -175,7 +175,7 @@ select:valid {
 #finish-button{
     background-color: #A3b18A;
     color: black;
-    border: 1 px solid;
+    border: 1px solid;
     border-radius: 5px;
     height: 60px;
     padding: 1rem;
@@ -325,7 +325,7 @@ select:valid {
 
 
 
-    #title{
+    #title, #fresh-title{
         width: 100%;
     
         padding-top: 1rem;

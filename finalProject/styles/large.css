@@ -16,7 +16,7 @@
     #title br:after{
         content:' ';
     }
-    #title{
+    #title, #fresh-title{
         padding-top: 0.5rem;
     }
     
@@ -184,7 +184,7 @@
                              "two three";
     }
 
-    #title{
+    #title, #fresh-title{
         width: 100%;
         grid-area: one;
         padding-top: 1rem;
