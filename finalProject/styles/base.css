@@ -252,8 +252,22 @@ select:valid {
 
 @media screen and (max-width:640px) {
 
+    .about-main{
+        width: 100%;
+    }
+
+    .fresh-main{
+        width: 100%;
+        margin-right: 2rem;
+        padding-right: 5rem;
+    }
+
+    #fresh-title h1{
+        margin-top: 3rem;
+    }
+
     input{
-        min-width: 200px;
+        min-width: 150px;
     }
 
     #summary{
@@ -275,7 +289,7 @@ select:valid {
     
 
     nav{
-        padding-left: 4rem;
+        padding-left: 1rem;
         padding-right: 2rem;
         justify-content: flex-end;
         background-color: #588157;
@@ -429,6 +443,8 @@ select:valid {
         padding-top: 2rem
 
     }
+
+
 
     
 }
