@@ -293,6 +293,7 @@ select:valid {
         padding-right: 2rem;
         justify-content: flex-end;
         background-color: #588157;
+        z-index: 1;
         
 
     }
