@@ -18,7 +18,7 @@
     <header>
         <div id="main-header">
             <div id="main-logo">
-                <a href="index.html"><img src="./images/logo.webp" alt="Bountiful Foods Logo" width="70" height="70" loading="lazy"></a>
+                <a href="index.html"><img src="./images/logo.webp" alt="Bountiful Foods Logo" width="120" height="100" loading="lazy"></a>
             </div>
             <div id="title">
                     <h1>Bountiful <br> Foods</h1>
@@ -29,28 +29,29 @@
                     <span id="menu-open">X</span></button>
                 <ul id="navbar">
                     <li class="active"><a class="active" href="index.html">Home</a></li>
-                    <li><a href="aboutUs.html">About Us</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    
     
                 </ul>
             </nav>
         </div>
     </header>
     <main class="home-main">
-        <div id="summary">
-            <h3>Summary</h3><br>
-            <div id="summary-content">
-                <img src="./images/rasberries.png" alt="rasberries" width="200" height="200" loading="lazy">
-            
-                <p>Here at Bountiful Foods, we focus on organic, and locally grown foods. Although our HQ is in Carlsbad,
-                    we have food trucks selling our fresh fruit from local farmers in various areas around Newport Beach, San Diego, 
-                    and Downtown Los Angeles. We believe our fresh and fruity drinks are the best on the west coast! Not only do we
-                    sell out of our food truck, but we also offer drinks at our HQ! Visit one of our locations today to try the best in the west!
+        <div id="call-to-action">
+            <h3>Buy a Drink!</h3>
+            <div id="call-to-action-content">
+                <button onclick="window.location.href = 'fresh.html';">
+                    Click me for Fresh Drinks
+                </button>
+                <p>You have ordered <span id="number-of-drinks"></span> drinks.</p>
 
-                </p>
+                <div id="fruit-gif">
+                    <img src="./images/fruit-drink.png" alt="drink-fun" loading="lazy">
+                </div>
             </div>
-
         </div>
+
         <div id="drinks">
             <h3>Our Most Popular Drinks</h3><br>
             <div id="drinks-content">
@@ -106,25 +107,26 @@
                     </div>
                 </div>
             </div>
-            <div id="call-to-action">
-                <h3>Buy a Drink!</h3>
-                <div id="call-to-action-content">
-                    <button onclick="window.location.href = 'fresh.html';">
-                        Click me for Fresh Drinks
-                    </button>
-                    <p>You have ordered <span id="number-of-drinks"></span> drinks.</p>
-
-                    <div id="fruit-gif">
-                        <img src="./images/fruit-drink.png" alt="drink-fun" loading="lazy">
-                    </div>
+            <div id="summary">
+                <h3>Summary</h3><br>
+                <div id="summary-content">
+                    <img src="./images/rasberries.png" alt="rasberries" width="200" height="200" loading="lazy">
+                
+                    <p>Here at Bountiful Foods, we focus on organic, and locally grown foods. Although our HQ is in Carlsbad,
+                        we have food trucks selling our fresh fruit from local farmers in various areas around Newport Beach, San Diego, 
+                        and Downtown Los Angeles. We believe our fresh and fruity drinks are the best on the west coast! Not only do we
+                        sell out of our food truck, but we also offer drinks at our HQ! Visit one of our locations today to try the best in the west!
+    
+                    </p>
                 </div>
+    
             </div>
             <div id="social-media">
                 <h3>Check Us Out on Social Media</h3>
                 <div id="social-media-content">
-                    <img id="instagram" src="./images/instagram-logo.png" alt="instagram" height="50" width="50" loading="lazy">
-                    <img id="facebook" src="./images/facebook-logo.png" alt="facebook" height="50" width="50" loading="lazy">
-                    <img id="linkedin" src="./images/linkedin-logo.png" alt="linkedin" height="50" width="50" loading="lazy">
+                    <a href="https://www.instagram.com/"><img id="instagram" src="./images/instagram-logo.png" alt="instagram" height="50" width="50" loading="lazy"></a>
+                    <a href="https://www.facebook.com/"><img id="facebook" src="./images/facebook-logo.png" alt="facebook" height="50" width="50" loading="lazy"></a>
+                    <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/linkedin-logo.png" alt="linkedin" height="50" width="50" loading="lazy"></a>
                 </div>
             </div>
             <div id="contact">
@@ -144,7 +146,7 @@
     <footer>
         <div id="containers">
             <div id="container-1">
-                <img src="./images/logo.webp" alt="Bountiful Foods Logo" width="150" height="150" loading="lazy">
+                <img src="./images/logo.webp" alt="Bountiful Foods Logo" width="180" height="150" loading="lazy">
             </div>
             <div id="container-2">
                 <h3>Bountiful Foods</h3>

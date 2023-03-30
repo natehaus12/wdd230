@@ -12,6 +12,19 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 
+#about-contact{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+
+}
+#google-map{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    
+}
+
 .contact-main{
     margin: 2rem;
     align-items: center;

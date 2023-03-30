@@ -1,4 +1,9 @@
-@media screen and (min-width:900px) {
+@media screen and (min-width:1100px) {
+
+    
+input{
+    min-width: 400px;
+}
 
     .fresh-main{
         padding-bottom: 2rem;
@@ -23,7 +28,7 @@
 
     nav{
         padding-right: 2rem;
-        padding-left: 4rem;
+        padding-left: 1rem;
         
     }
 
@@ -39,20 +44,32 @@
     }
 
     #navbar{
+        align-items: center;
         display: flex;
         list-style-type: none;
     }
 
     nav ul li{
+        
+        min-width: 75px;
+        min-height: 30px;
+        align-items: center;
         background-color: #A3b18A;
         text-align: center;
         padding-left: 6rem;
         padding-right: 6rem;
-        padding-top: 1rem;
+        padding-top: 1.5rem;
         padding-bottom: 1rem;
         border: 1px solid #DAD7CD;
         
     }
+
+    nav ul{
+        display: block;
+    }
+ 
+
+
 
 
     #hamburger-menu{
@@ -63,6 +80,7 @@
         margin: auto;
         width: 100%;
         display: grid;
+        gap: 45px;
         grid-template-areas: "one one two two"
                             "three three three three"
     }
@@ -75,7 +93,8 @@
     }
 
     #summary{
-        grid-area: one;
+        
+        grid-area: two;
     }
 
     #drinks{
@@ -88,8 +107,10 @@
     }
 
     #call-to-action{
+        margin-left: 1rem;
         width: 100%;
-        grid-area: two;
+        grid-area: one;
+        
     }
 
 
@@ -234,7 +255,8 @@
     #locations-grid{
         display: grid;
         grid-template-areas: "one two"
-                             "three four";
+                             "three four"
+                             "five six";
     }
 
     #newport-beach{
@@ -267,6 +289,14 @@
         padding: 1rem;
         border: 1px solid white;
         
+    }
+
+    #about-contact{
+        grid-area: five;
+    
+    }
+    #google-map{
+        grid-area: six;
     }
 
 

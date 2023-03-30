@@ -1,4 +1,8 @@
-@media screen and (min-width:640px) and (max-width:900px) {
+@media screen and (min-width:640px) and (max-width:1100px) {
+
+    input{
+        min-width: 300px;
+    }
    
 
     #title br{
@@ -49,7 +53,11 @@
     }
     
     #navbar.menu-active{
-            
+        position: absolute;
+        top:65px;   
+        right: 25px; 
+
+
         background-color: #A3b18A;
         display: block;
     }
@@ -58,8 +66,8 @@
     nav ul li{
         text-align: center;
         list-style-type: none;
-        border: 1px solid #344e41;
-        padding: 0.5rem;
+        border: 1px solid white;
+        padding: 1rem;
         
     
     }
@@ -67,7 +75,7 @@
     nav ul{
         position: relative;
         justify-content: center;
-        display:flex;
+        display:block;
         flex-direction: column;
         list-style: none;
         padding-inline-start: 0px;
@@ -96,6 +104,8 @@
     }
     #call-to-action{
         grid-area: two ;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
     #social-media{
         grid-area: three ;
@@ -142,19 +152,33 @@
     }
 
     #form{
-    padding-top: 2rem;
-    padding-bottom: 2rem ;
+
+        margin-left: 7rem;
+        margin-right: 8rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    form{
+
+        text-align: left;
     }
 
     footer{
         padding-top: 2rem
     }
-    #title, #fresh-title{
+    #title{
         width: 100%;
     
         padding-top: 1rem;
         text-align: left;
         margin: auto;
+    }
+
+    #fresh-title{
+        text-align: center;
+        padding: 1rem;
     }
     #contact-image{
         display: none;
